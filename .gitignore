@@ -5,9 +5,7 @@ __pycache__/
 *.pyc
 # C extensions
 *.so
-#removing migrations from git 
 
-music/migrations/
 #removing pycache
 website/__pycache__/
 music/__pycache__/
