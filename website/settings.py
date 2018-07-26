@@ -31,7 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'music',
+    'music.apps.MusicConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -71,8 +71,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'website.wsgi.application'
 
 
-# Database
-# https://docs.djangoproject.com/en/2.0/ref/settings/#databases
+
 
 DATABASES = {
     'default': {

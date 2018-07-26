@@ -10,5 +10,3 @@ class AlbumAdmin(admin.ModelAdmin):
 @admin.register(Song)
 class AlbumAdmin(Song.ModelAdmin):
       pass
-
-
